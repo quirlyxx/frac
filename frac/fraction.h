@@ -21,6 +21,10 @@ public:
 
     inline int getNumerator() { return numerator; }
     inline int getDenominator() { return denominator; }
+
+    void saveToBinary(const char* filename) const;
+    void loadFromBinary(const char* filename);
+
 };
 
 
